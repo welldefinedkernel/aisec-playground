@@ -2,6 +2,9 @@
 
 The discovery project of seeing how to setup different AI Security framework for local agentic environments (OpenClaw, Hermes), and the core areas they are capable of targeting. 
 
+## Overview of threats aimed at Agentic AI systems
+https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/ 
+
 ## Frameworks
 
 ### AgentDojo
