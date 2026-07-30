@@ -27,3 +27,6 @@ dev = [
 
 [tool.ruff]
 cache-dir = ".cache/ruff"
+
+[tool.setuptools.packages.find]
+where = ["utils"]
