@@ -1,18 +1,32 @@
 [project]
-name = "frameworks-walkthrough"
+name = "aisec-playground"
 version = "0.1.0"
-description = "Playing around with AI Security frameworks to learn and contribute to AgentScanner"
+description = "Playing around with AI Security frameworks to learn."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
+
 dependencies = [
     "agentdojo>=0.1.35",
     "pip>=26.1.2",
+    "pyrit>=0.14.0",
     "python-dotenv>=1.2.2",
+    "truststore>=0.10.4",
 ]
 
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
+    "pyclean>=3.7.0",
+    "ruff>=0.15.22",
+]
+
+[tool.ruff]
+cache-dir = ".cache/ruff"
+
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["utils"]
