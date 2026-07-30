@@ -6,11 +6,8 @@ readme = "README.md"
 requires-python = ">=3.14"
 
 dependencies = [
-    "agentdojo>=0.1.35",
     "pip>=26.1.2",
-    "pyrit>=0.14.0",
     "python-dotenv>=1.2.2",
-    "truststore>=0.10.4",
 ]
 
 [build-system]
